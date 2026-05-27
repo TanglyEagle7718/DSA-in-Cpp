@@ -1,0 +1,146 @@
+[
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/ArrayList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/ArrayList/include -g -std=c++17 -o CMakeFiles/ArrayListTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/ArrayList/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/ArrayList/tests/test_main.cpp",
+  "output": "ArrayList/CMakeFiles/ArrayListTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/ArrayList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/ArrayList/include -g -std=c++17 -o CMakeFiles/ArrayListTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/ArrayList/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/ArrayList/tests/basic_tests.cpp",
+  "output": "ArrayList/CMakeFiles/ArrayListTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/ArrayList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/ArrayList/include -g -std=c++17 -o CMakeFiles/ArrayListTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/ArrayList/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/ArrayList/tests/custom_tests.cpp",
+  "output": "ArrayList/CMakeFiles/ArrayListTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/SinglyLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/SinglyLinkedList/include -g -std=c++17 -o CMakeFiles/SinglyLinkedListTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/SinglyLinkedList/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/SinglyLinkedList/tests/test_main.cpp",
+  "output": "SinglyLinkedList/CMakeFiles/SinglyLinkedListTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/SinglyLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/SinglyLinkedList/include -g -std=c++17 -o CMakeFiles/SinglyLinkedListTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/SinglyLinkedList/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/SinglyLinkedList/tests/basic_tests.cpp",
+  "output": "SinglyLinkedList/CMakeFiles/SinglyLinkedListTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/SinglyLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/SinglyLinkedList/include -g -std=c++17 -o CMakeFiles/SinglyLinkedListTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/SinglyLinkedList/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/SinglyLinkedList/tests/custom_tests.cpp",
+  "output": "SinglyLinkedList/CMakeFiles/SinglyLinkedListTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/DoublyLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/DoublyLinkedList/include -g -std=c++17 -o CMakeFiles/DoublyLinkedListTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/DoublyLinkedList/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/DoublyLinkedList/tests/test_main.cpp",
+  "output": "DoublyLinkedList/CMakeFiles/DoublyLinkedListTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/DoublyLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/DoublyLinkedList/include -g -std=c++17 -o CMakeFiles/DoublyLinkedListTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/DoublyLinkedList/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/DoublyLinkedList/tests/basic_tests.cpp",
+  "output": "DoublyLinkedList/CMakeFiles/DoublyLinkedListTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/DoublyLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/DoublyLinkedList/include -g -std=c++17 -o CMakeFiles/DoublyLinkedListTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/DoublyLinkedList/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/DoublyLinkedList/tests/custom_tests.cpp",
+  "output": "DoublyLinkedList/CMakeFiles/DoublyLinkedListTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/CircularLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/CircularLinkedList/include -g -std=c++17 -o CMakeFiles/CircularLinkedListTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/CircularLinkedList/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/CircularLinkedList/tests/test_main.cpp",
+  "output": "CircularLinkedList/CMakeFiles/CircularLinkedListTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/CircularLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/CircularLinkedList/include -g -std=c++17 -o CMakeFiles/CircularLinkedListTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/CircularLinkedList/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/CircularLinkedList/tests/basic_tests.cpp",
+  "output": "CircularLinkedList/CMakeFiles/CircularLinkedListTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/CircularLinkedList",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/CircularLinkedList/include -g -std=c++17 -o CMakeFiles/CircularLinkedListTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/CircularLinkedList/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/CircularLinkedList/tests/custom_tests.cpp",
+  "output": "CircularLinkedList/CMakeFiles/CircularLinkedListTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/StackArray",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/StackArray/include -g -std=c++17 -o CMakeFiles/StackArrayTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/StackArray/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/StackArray/tests/test_main.cpp",
+  "output": "StackArray/CMakeFiles/StackArrayTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/StackArray",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/StackArray/include -g -std=c++17 -o CMakeFiles/StackArrayTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/StackArray/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/StackArray/tests/basic_tests.cpp",
+  "output": "StackArray/CMakeFiles/StackArrayTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/StackArray",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/StackArray/include -g -std=c++17 -o CMakeFiles/StackArrayTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/StackArray/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/StackArray/tests/custom_tests.cpp",
+  "output": "StackArray/CMakeFiles/StackArrayTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/QueueArray",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/QueueArray/include -g -std=c++17 -o CMakeFiles/QueueArrayTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/QueueArray/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/QueueArray/tests/test_main.cpp",
+  "output": "QueueArray/CMakeFiles/QueueArrayTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/QueueArray",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/QueueArray/include -g -std=c++17 -o CMakeFiles/QueueArrayTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/QueueArray/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/QueueArray/tests/basic_tests.cpp",
+  "output": "QueueArray/CMakeFiles/QueueArrayTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/QueueArray",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/QueueArray/include -g -std=c++17 -o CMakeFiles/QueueArrayTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/QueueArray/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/QueueArray/tests/custom_tests.cpp",
+  "output": "QueueArray/CMakeFiles/QueueArrayTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/BinarySearchTree",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/BinarySearchTree/include -g -std=c++17 -o CMakeFiles/BinarySearchTreeTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/BinarySearchTree/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/BinarySearchTree/tests/test_main.cpp",
+  "output": "BinarySearchTree/CMakeFiles/BinarySearchTreeTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/BinarySearchTree",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/BinarySearchTree/include -g -std=c++17 -o CMakeFiles/BinarySearchTreeTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/BinarySearchTree/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/BinarySearchTree/tests/basic_tests.cpp",
+  "output": "BinarySearchTree/CMakeFiles/BinarySearchTreeTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/BinarySearchTree",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/BinarySearchTree/include -g -std=c++17 -o CMakeFiles/BinarySearchTreeTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/BinarySearchTree/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/BinarySearchTree/tests/custom_tests.cpp",
+  "output": "BinarySearchTree/CMakeFiles/BinarySearchTreeTests.dir/tests/custom_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/Heap",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/Heap/include -g -std=c++17 -o CMakeFiles/HeapTests.dir/tests/test_main.cpp.o -c /home/rborra/DSA-in-Cpp/Heap/tests/test_main.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/Heap/tests/test_main.cpp",
+  "output": "Heap/CMakeFiles/HeapTests.dir/tests/test_main.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/Heap",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/Heap/include -g -std=c++17 -o CMakeFiles/HeapTests.dir/tests/basic_tests.cpp.o -c /home/rborra/DSA-in-Cpp/Heap/tests/basic_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/Heap/tests/basic_tests.cpp",
+  "output": "Heap/CMakeFiles/HeapTests.dir/tests/basic_tests.cpp.o"
+},
+{
+  "directory": "/home/rborra/DSA-in-Cpp/build/Heap",
+  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/home/rborra/DSA-in-Cpp/Heap/include -g -std=c++17 -o CMakeFiles/HeapTests.dir/tests/custom_tests.cpp.o -c /home/rborra/DSA-in-Cpp/Heap/tests/custom_tests.cpp",
+  "file": "/home/rborra/DSA-in-Cpp/Heap/tests/custom_tests.cpp",
+  "output": "Heap/CMakeFiles/HeapTests.dir/tests/custom_tests.cpp.o"
+}
+]

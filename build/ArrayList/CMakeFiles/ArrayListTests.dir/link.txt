@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/ArrayListTests.dir/tests/test_main.cpp.o CMakeFiles/ArrayListTests.dir/tests/basic_tests.cpp.o CMakeFiles/ArrayListTests.dir/tests/custom_tests.cpp.o -o ArrayListTests 

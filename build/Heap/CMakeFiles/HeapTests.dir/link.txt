@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/HeapTests.dir/tests/test_main.cpp.o CMakeFiles/HeapTests.dir/tests/basic_tests.cpp.o CMakeFiles/HeapTests.dir/tests/custom_tests.cpp.o -o HeapTests 
