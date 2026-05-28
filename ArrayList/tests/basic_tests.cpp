@@ -1,6 +1,7 @@
 #include "ArrayList.hpp"
 
 #include <cassert>
+#include <iostream>
 
 void run_basic_tests() {
     dsa::ArrayList<int> list;
