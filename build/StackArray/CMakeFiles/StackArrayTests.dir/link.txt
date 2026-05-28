@@ -1,1 +1,0 @@
-/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/StackArrayTests.dir/tests/test_main.cpp.o CMakeFiles/StackArrayTests.dir/tests/basic_tests.cpp.o CMakeFiles/StackArrayTests.dir/tests/custom_tests.cpp.o -o StackArrayTests 

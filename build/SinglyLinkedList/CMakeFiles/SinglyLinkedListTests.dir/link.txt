@@ -1,1 +1,0 @@
-/usr/bin/aarch64-linux-gnu-g++ -g CMakeFiles/SinglyLinkedListTests.dir/tests/test_main.cpp.o CMakeFiles/SinglyLinkedListTests.dir/tests/basic_tests.cpp.o CMakeFiles/SinglyLinkedListTests.dir/tests/custom_tests.cpp.o -o SinglyLinkedListTests 
