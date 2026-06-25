@@ -2,6 +2,10 @@
 
 #include <cstddef>
 #include <stdexcept>
+#include <vector>
+#include <cstdint>
+#include <memory>
+#include <utility>
 
 namespace dsa {
 
@@ -23,33 +27,74 @@ public:
 
     bool contains(const T& value) const;
     void clear();
+
+
+private:
+    std::size_t length;
+
+    class Node {
+    public:
+        T value;
+        std::unique_ptr<Node> next;
+
+        explicit Node(T value) : value(value), next(nullptr) {}
+        explicit Node(T value, Node* next) : value(value), next(next ? std::make_unique<Node>(next) : nullptr) {}
+    };
+    std::unique_ptr<Node> head;
+    Node* tail;
+
 };
 
 template <typename T>
-SinglyLinkedList<T>::SinglyLinkedList() {
-    throw std::logic_error("TODO: implement SinglyLinkedList::SinglyLinkedList");
-}
+SinglyLinkedList<T>::SinglyLinkedList() : length(0), head(nullptr), tail(nullptr) {}
 
 template <typename T>
 std::size_t SinglyLinkedList<T>::size() const {
-    throw std::logic_error("TODO: implement SinglyLinkedList::size");
+    if (!head) return 0;
+    return length;
 }
 
 template <typename T>
 bool SinglyLinkedList<T>::is_empty() const {
-    throw std::logic_error("TODO: implement SinglyLinkedList::is_empty");
+    return !head;
 }
 
 template <typename T>
 void SinglyLinkedList<T>::push_front(const T& value) {
-    (void)value;
-    throw std::logic_error("TODO: implement SinglyLinkedList::push_front");
+    if (!head) {
+        head = std::make_unique<Node>(value);
+        tail = head.get();
+
+        length++;
+        return;
+    }
+
+    auto newNode = std::make_unique<Node>(value);
+    newNode->next = std::move(head);
+    head = std::move(newNode);
+    length++;
+
+    return;
 }
 
 template <typename T>
 void SinglyLinkedList<T>::push_back(const T& value) {
-    (void)value;
-    throw std::logic_error("TODO: implement SinglyLinkedList::push_back");
+    if (!head) {
+        head = std::make_unique<Node>(value);
+        tail = head.get();
+
+        length++;
+        return;
+    }
+
+    auto newNode = std::make_unique<Node>(value);
+    
+    Node* newTail = newNode.get();
+    tail->next = std::move(newNode);
+    tail = newTail;
+
+    length++;
+    return;
 }
 
 template <typename T>
@@ -85,7 +130,11 @@ bool SinglyLinkedList<T>::contains(const T& value) const {
 
 template <typename T>
 void SinglyLinkedList<T>::clear() {
-    throw std::logic_error("TODO: implement SinglyLinkedList::clear");
+    if (!head) return;
+
+    head.reset();
+    tail = nullptr;
+    length = 0;
 }
 
 } // namespace dsa
